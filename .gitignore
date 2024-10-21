@@ -37,3 +37,4 @@ override.tf.json
 terraform.rc
 docs/.DS_Store
 /docs/.idea
+.DS_Store
