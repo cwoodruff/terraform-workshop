@@ -2,10 +2,8 @@
 order: 7
 icon: home
 ---
-# Workshop Home
+# Terraform Workshop Home
 
-For the source code for the workshop, visit the [ASP.NET Web API Workshop](https://github.com/cwoodruff/web-api-workshop) GitHub repo.
-
-Interested in learning about designing, architecting and developing Web APIs using ASP.NET 8?
+For the content for the workshop, visit the [Terraform Workshop](https://github.com/cwoodruff/terraform-workshop) GitHub repo.
 
 Ask me about doing a workshop. My email is [cwoodruff@live.com](mailto:cwoodruff@live.com).
