@@ -21,13 +21,13 @@ title: "Configure Terraform in Azure Cloud Shell with Azure PowerShell"
 
 4. Open Cloud Shell.
 
-![Open Cloud Shell from the top menu in the Azure portal.](images%2Fportal-cloud-shell.png)
+![Open Cloud Shell from the top menu in the Azure portal.](images/portal-cloud-shell.png)
 
 5. If you haven't previously used Cloud Shell, configure the environment and storage settings.
 
 6. Select the command-line environment.
 
-![Select the CLI you want to use in Cloud Shell.](images%2Fchoose-cloudshell-cli.png)
+![Select the CLI you want to use in Cloud Shell.](images/choose-cloudshell-cli.png)
 
 ## Get Version of Terraform
    Cloud Shell automatically updates to the latest version of Terraform. However, the updates come within a couple of weeks of release.

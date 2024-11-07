@@ -16,4 +16,4 @@ title: "Setting Up the Environment"
 ![Slide 7](images/Slide7.png)
 ![Slide 8](images/Slide8.png)
 ![Slide 9](images/Slide9.png)
-![Slide 10](images%2FSlide10.PNG)
+![Slide 10](images/Slide10.PNG)
