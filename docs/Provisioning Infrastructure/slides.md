@@ -15,3 +15,7 @@ title: "Provisioning Infrastructure"
 ![Slide 6](images/Slide6.png)
 ![Slide 7](images/Slide7.png)
 ![Slide 8](images/Slide8.png)
+![Slide 9](images%2FSlide9.PNG)
+![Slide 10](images%2FSlide10.PNG)
+![Slide 11](images%2FSlide11.PNG)
+![Slide 12](images%2FSlide12.PNG)
