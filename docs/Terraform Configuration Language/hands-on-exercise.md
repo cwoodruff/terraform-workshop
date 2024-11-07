@@ -47,6 +47,7 @@ Participants will write a basic Terraform configuration to provision a simple re
     - Example:
       ```hcl
       # Create an Azure Resource Group
+      
       resource "azurerm_resource_group" "example" {
         name     = "myResourceGroup"
         location = "East US"
@@ -68,6 +69,7 @@ Participants will write a basic Terraform configuration to provision a simple re
     - Add the following variable definitions to `variables.tf`:
       ```hcl
       # Define a variable for the Resource Group name
+      
       variable "resource_group_name" {
         description = "The name of the Azure Resource Group"
         type        = string
@@ -75,6 +77,7 @@ Participants will write a basic Terraform configuration to provision a simple re
       }
  
       # Define a variable for the Azure region (location)
+      
       variable "location" {
         description = "The Azure region where the Resource Group will be created"
         type        = string
@@ -86,6 +89,7 @@ Participants will write a basic Terraform configuration to provision a simple re
     - Update the resource block in `main.tf` to use the variables defined in `variables.tf`:
       ```hcl
       # Create an Azure Resource Group using variables
+      
       resource "azurerm_resource_group" "example" {
         name     = var.resource_group_name
         location = var.location
@@ -118,6 +122,7 @@ Participants will write a basic Terraform configuration to provision a simple re
       Terraform will perform the following actions:
  
         # azurerm_resource_group.example will be created
+      
         + resource "azurerm_resource_group" "example" {
             + id       = (known after apply)
             + location = "East US"
