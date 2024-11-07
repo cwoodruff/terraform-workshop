@@ -1,5 +1,5 @@
 ---
-order: -1
+order: -2
 icon: rocket
 label: Hands On Exercise
 meta:
