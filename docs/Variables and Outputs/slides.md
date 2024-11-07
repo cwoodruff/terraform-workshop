@@ -14,3 +14,4 @@ title: "Variables and Outputs"
 ![Slide 5](images/Slide5.png)
 ![Slide 6](images/Slide6.png)
 ![Slide 7](images/Slide7.png)
+![Slide 8](images%2FSlide8.PNG)
