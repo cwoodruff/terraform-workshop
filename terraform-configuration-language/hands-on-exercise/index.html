@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/terraform-workshop">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.784278973119">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.784293697708">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -35,12 +35,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../images/favicon.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.784278973119" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.784293697708" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.784278973119" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.784293697708" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.784278973119" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.784278973119" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.784293697708" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.784293697708" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -299,6 +299,7 @@ provider &quot;azurerm&quot; {
 <li>Example:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-hcl"><code v-pre class="language-hcl"># Create an Azure Resource Group
+
 resource &quot;azurerm_resource_group&quot; &quot;example&quot; {
   name     = &quot;myResourceGroup&quot;
   location = &quot;East US&quot;
@@ -333,6 +334,7 @@ resource &quot;azurerm_resource_group&quot; &quot;example&quot; {
 <li>Add the following variable definitions to <code v-pre>variables.tf</code>:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-hcl"><code v-pre class="language-hcl"># Define a variable for the Resource Group name
+
 variable &quot;resource_group_name&quot; {
   description = &quot;The name of the Azure Resource Group&quot;
   type        = string
@@ -340,6 +342,7 @@ variable &quot;resource_group_name&quot; {
 }
 
 # Define a variable for the Azure region (location)
+
 variable &quot;location&quot; {
   description = &quot;The Azure region where the Resource Group will be created&quot;
   type        = string
@@ -354,6 +357,7 @@ variable &quot;location&quot; {
 <li>Update the resource block in <code v-pre>main.tf</code> to use the variables defined in <code v-pre>variables.tf</code>:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-hcl"><code v-pre class="language-hcl"># Create an Azure Resource Group using variables
+
 resource &quot;azurerm_resource_group&quot; &quot;example&quot; {
   name     = var.resource_group_name
   location = var.location
@@ -400,6 +404,7 @@ resource &quot;azurerm_resource_group&quot; &quot;example&quot; {
 <pre class="language-none"><code v-pre class="language-none">Terraform will perform the following actions:
 
   # azurerm_resource_group.example will be created
+
   + resource &quot;azurerm_resource_group&quot; &quot;example&quot; {
       + id       = (known after apply)
       + location = &quot;East US&quot;
