@@ -107,7 +107,7 @@ In this bonus exercise, participants will create an **Azure Load Balancer** and 
         location              = azurerm_resource_group.example.location
         resource_group_name   = azurerm_resource_group.example.name
         network_interface_ids = [azurerm_network_interface.vm1_nic.id]
-        vm_size               = "Standard_DS1_v2"
+        vm_size               = "Standard_B1s"
  
         storage_image_reference {
           publisher = "Canonical"
@@ -132,7 +132,7 @@ In this bonus exercise, participants will create an **Azure Load Balancer** and 
         location              = azurerm_resource_group.example.location
         resource_group_name   = azurerm_resource_group.example.name
         network_interface_ids = [azurerm_network_interface.vm2_nic.id]
-        vm_size               = "Standard_DS1_v2"
+        vm_size               = "Standard_B1s"
  
         storage_image_reference {
           publisher = "Canonical"
